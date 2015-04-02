@@ -1,0 +1,288 @@
+Script started on Tue 03 Feb 2015 10:30:48 PM PST
+]0;clayton@ubuntu: ~/Eclipse/1bclayton@ubuntu:~/Eclipse/1b$ g++ 1b.cpp
+]0;clayton@ubuntu: ~/Eclipse/1bclayton@ubuntu:~/Eclipse/1b$ /[K./a.out
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 1
+
+
+Populate a new slot machine 
+
+File fetching in progress ! ! !
+file read complete
+
+Creating Slot machine
+Slot Machine Created
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 3
+
+
+Print the existing slot machine configuration to screen
+
+!!BONUS!!
+bar	6	
+bell	5	
+cherry	1	
+lemon	0	
+orange	0	
+7	10	
+
+Bonus complete
+
+!!Reels!!
+Reel 1	Reel 2	Reel 3
+
+bell	bar	cherry	
+bell	cherry	lemon	
+bar	bar	bell	
+lemon	orange	orange	
+cherry	cherry	bar	
+cherry	lemon	cherry	
+bell	bar	7	
+cherry	bell	7	
+orange	7	7	
+bar	cherry	7	
+
+Reels complete
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 2
+
+
+Read an existing slot machine configuration
+Please type the file that you would like to open  - reeltest
+
+You have requested to open reeltest
+file read complete
+
+file read complete
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 3
+
+
+Print the existing slot machine configuration to screen
+
+!!BONUS!!
+bar	6	
+bell	5	
+cherry	1	
+lemon	0	
+orange	0	
+7	10	
+
+Bonus complete
+
+!!Reels!!
+Reel 1	Reel 2	Reel 3
+
+1-1	1-2	1-3	
+2-1	2-2	2-3	
+3-1	3-2	3-3	
+4-1	4-2	4-3	
+5-1	5-2	5-3	
+6-1	6-2	6-3	
+7-1	7-2	7-3	
+8-1	8-2	8-3	
+9-1	9-2	9-3	
+10-1	10-2	10-3	
+
+Reels complete
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 1
+
+
+Populate a new slot machine 
+
+File fetching in progress ! ! !
+file read complete
+
+Creating Slot machine
+Slot Machine Created
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 4
+
+
+Print a selected reel and stop
+Please select the reel you would like displayed (1-3) - 1
+Please select the stop you would like displayed (1-10) - 1
+Your selected symbol is - cherry
+The bonus associated with that symbol is - 0
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 4
+
+
+Print a selected reel and stop
+Please select the reel you would like displayed (1-3) - 1
+Please select the stop you would like displayed (1-10) - 4
+Your selected symbol is - bell
+The bonus associated with that symbol is - 0
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 4
+
+
+Print a selected reel and stop
+Please select the reel you would like displayed (1-3) - 9
+Please select the stop you would like displayed (1-10) - 1
+Your selection is not within the required inputs
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 2
+
+
+Read an existing slot machine configuration
+Please type the file that you would like to open  - reels test
+
+You have requested to open reeltest
+file read complete
+
+file read complete
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 5
+
+
+Print configuration to file
+File output in progress
+Please enter the name of the output file - 
+thistest
+thistest
+File write complete, file closed
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 2
+
+
+Read an existing slot machine configuration
+Please type the file that you would like to open  - thistest
+
+You have requested to open thistest
+file read complete
+
+file read complete
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: 3
+
+
+Print the existing slot machine configuration to screen
+
+!!BONUS!!
+bar	6	
+bell	5	
+cherry	1	
+lemon	0	
+orange	0	
+7	10	
+
+Bonus complete
+
+!!Reels!!
+Reel 1	Reel 2	Reel 3
+
+1-1	1-2	1-3	
+2-1	2-2	2-3	
+3-1	3-2	3-3	
+4-1	4-2	4-3	
+5-1	5-2	5-3	
+6-1	6-2	6-3	
+7-1	7-2	7-3	
+8-1	8-2	8-3	
+9-1	9-2	9-3	
+10-1	10-2	10-3	
+
+Reels complete
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: exit    6
+
+
+Goodbye.
+
+Slot Machine Menu
+ 1. Populate a new slot machine 
+ 2. Read an existing slot machine configuration
+ 3. Print the existing slot machine configuration to screen
+ 4. Print a selected reel and stop
+ 5. Print configuration to file
+ 6. Exit
+ Enter your selection: exit
+]0;clayton@ubuntu: ~/Eclipse/1bclayton@ubuntu:~/Eclipse/1b$ ei[Kxit
+exit
+
+Script done on Tue 03 Feb 2015 10:33:19 PM PST

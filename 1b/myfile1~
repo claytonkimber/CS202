@@ -1,0 +1,10 @@
+7	lemon	lemon	
+bar	7	cherry	
+orange	bell	bar	
+orange	7	lemon	
+7	bell	orange	
+lemon	orange	cherry	
+cherry	lemon	bell	
+orange	cherry	bell	
+7	7	bell	
+bell	7	bell	

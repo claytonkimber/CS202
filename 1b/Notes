@@ -1,0 +1,92 @@
+code is modular.  Makes the pieces testable
+
+delete unused information. leave comments for information only
+
+stcmp needs to take in two char arrays, not more.  Iterate throught the loop in the calling function instead
+
+STRUCTS		(nearly the same as class)
+
+// similar to class
+constructors, destructors, member access specifiers available, but should be in class
+only difference is how they are inherited
+
+-new abstract data type
+
+arrys have to be all the same data type.  Structs do not
+
+structs all inside main driver for now.  
+
+Define the struct, later declare
+
+// example of program layout
+#includes
+ADT defn  ***** This is where structs go (abstract data type) 
+function prototypes
+global variables/consts
+main
+function implimentations
+
+// how to make a struct
+struct 				STUDENT 						{            }
+(reserved word)		(upper case preference for me)	(data members)
+
+struct STUDENT
+{
+	int age;
+	float gpa;
+	char gender;
+};
+
+in main
+normal			array
+int x;			int y[25];
+student s1;		student cs202[20];
+student s2;
+
+s2=s1;  // this works, but not a deep copy, only shallow copy
+
+shallow copy is bitwise copy, but only grabs the address and makes the second a pointer
+
+cout << s1  // CANNOT DO THIS
+if (s1 == s2 ) // CANNOT DO THIS
+
+student s1;  // has no data, but memory is set aside.  not in sequence
+
+s1					.						age
+(calling object)	(this is the member)	(what I'm looking at)
+					(has operator presidence)
+(				considered an int												)					
+
+s1.gpa = 3.7;
+s1.gender = "f";
+
+cout << s1.age << s1.gpa << s1.gender ;
+		int			float		char
+		
+// to deep copy from s1 to s2
+student s2;
+s2.age = s1.age;
+s2.gpa = s1.gpa;
+s2.gender = s1.gender;
+
+// to compare
+if (s1.age == s2.age)
+{}
+
+STRUCTS ACT LIKE INTS WHEN PASSING (passed by value), and can be returned from a function
+
+struct STUDENT				when s2=s1							use strcopy
+{
+char name[20];				ADDRESS of name						name
+int age;					age
+float gpa;					gpa
+char gender;				gender
+}
+
+
+
+
+
+
+
+
